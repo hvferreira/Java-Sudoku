@@ -3,8 +3,11 @@ package org.sudoku;
 import java.io.IOException;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import org.sudoku.userinterface.IUserInterfaceContract;
+import org.sudoku.buildlogic.SudokuBuildLogic;
 import org.sudoku.userinterface.UserInterfaceImpl;
+
+import org.sudoku.userinterface.IUserInterfaceContract;
+
 
 public class SudokuApplication extends Application {
     private IUserInterfaceContract.View uiImpl;
