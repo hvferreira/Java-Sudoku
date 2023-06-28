@@ -16,7 +16,7 @@ class TestData {
         validStart[2][1] = 3;
         validStart[7][1] = 2;
 
-        
+
         validStart[1][2] = 5;
         validStart[5][2] = 7;
 
